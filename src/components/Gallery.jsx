@@ -1,20 +1,20 @@
 import { useEffect, useState, useRef } from "react";
 import design1 from "../assets/image1.jfif";
 import design2 from "../assets/image2.jfif";
-import design3 from "../assets/image2.jfif";
-import design4 from "../assets/image1.jfif";
-import design5 from "../assets/image4.jfif";
-import design6 from "../assets/image3.jfif";
-import design7 from "../assets/image2.jfif";
-import design8 from "../assets/image2.jfif";
-import design9 from "../assets/image1.jfif";
-import design10 from "../assets/image4.jfif";
-import design11 from "../assets/image3.jfif";
-import design12 from "../assets/image2.jfif";
-import design13 from "../assets/image1.jfif";
-import design14 from "../assets/image4.jfif";
-import design15 from "../assets/image3.jfif";
-import design16 from "../assets/image3.jfif";
+import design3 from "../assets/image3.jfif";
+import design4 from "../assets/image4.jfif";
+import design5 from "../assets/image5.jfif";
+import design6 from "../assets/image6.jfif";
+import design7 from "../assets/image7.jfif";
+import design8 from "../assets/image8.jfif";
+import design9 from "../assets/image10.jfif";
+import design10 from "../assets/image9.jfif";
+import design11 from "../assets/image10.jfif";
+import design12 from "../assets/image11.jfif";
+import design13 from "../assets/image12.jfif";
+import design14 from "../assets/image13.jfif";
+import design15 from "../assets/image14.jfif";
+import design16 from "../assets/image15.jfif";
 
 export default function Gallery() {
   const images = [design1, design2, design3, design4, design5, design6, design7, design8, design9, design10, design11, design12, design13, design14, design15, design16 ];
