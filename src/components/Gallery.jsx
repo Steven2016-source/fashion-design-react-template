@@ -6,7 +6,7 @@ import design4 from "../assets/image4.jfif";
 import design5 from "../assets/image5.jpeg";
 import design6 from "../assets/image6.jpeg";
 import design7 from "../assets/image7.jpeg";
-import design8 from "../assets/image8.jpeg";
+import design8 from "../assets/image6.jpeg";
 import design9 from "../assets/image10.jpeg";
 import design10 from "../assets/image9.jpeg";
 import design11 from "../assets/image10.jpeg";
