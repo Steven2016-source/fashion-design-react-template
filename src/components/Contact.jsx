@@ -10,7 +10,7 @@ export default function ContactForm() {
       "service_45d32oh",
       "template_maykxxn",
       e.target,
-      "__mn0StozPHrMPhYj" // new EmailJS key
+      "6mK9UhiAGxvv3F0tx" // new EmailJS key
     ).then(
       (result) => {
         alert("Message sent!");
