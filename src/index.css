@@ -19,11 +19,18 @@ nav a{
   margin-left:15px;
   text-decoration:none;
 }
+nav :hover{
+  color: green;
+  touch-action: manipulation;
+  border-radius: 2%;
+  border-color: green;
+}
 .hero{
   padding:100px 20px;
   background:#111;
   color:white;
   text-align:center;
+  background-image: ;
 }
 .btn{
   padding:12px 25px;
@@ -41,11 +48,11 @@ nav a{
 .grid{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-  gap:15px;
+  gap:10px;
 }
 .grid img{
   width:100%;
-  border-radius:15px;
+  border-radius:18px;
 }
 .contact{
   padding:60px 20px;
