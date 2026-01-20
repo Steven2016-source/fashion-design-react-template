@@ -10,7 +10,7 @@ export default function ContactForm() {
       "YOUR_SERVICE_ID",
       "YOUR_TEMPLATE_ID",
       e.target,
-      "YOUR_PUBLIC_KEY" // new EmailJS key
+      "__mn0StozPHrMPhYj" // new EmailJS key
     ).then(
       (result) => {
         alert("Message sent!");
