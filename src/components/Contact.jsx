@@ -7,8 +7,8 @@ export default function ContactForm() {
     e.preventDefault();
 
     emailjs.sendForm(
-      "YOUR_SERVICE_ID",
-      "YOUR_TEMPLATE_ID",
+      "service_45d32oh",
+      "template_tb1al3j",
       e.target,
       "__mn0StozPHrMPhYj" // new EmailJS key
     ).then(
