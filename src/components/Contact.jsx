@@ -1,13 +1,36 @@
-export default function Contact(){
-  return(
+import React from "react";
+import emailjs from "@emailjs/browser";
+
+export default function ContactForm() {
+
+  function sendFeedback(e) {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      "YOUR_SERVICE_ID",
+      "YOUR_TEMPLATE_ID",
+      e.target,
+      "YOUR_PUBLIC_KEY" // new EmailJS key
+    ).then(
+      (result) => {
+        alert("Message sent!");
+        e.target.reset();
+      },
+      (error) => {
+        alert("Error sending message: " + error.text);
+      }
+    );
+  }
+
+  return (
     <section className="contact" id="contact">
       <h2>Send Us a Message</h2>
-      <form onSubmit={e=>e.preventDefault()}>
-        <input placeholder="Name" />
-        <input placeholder="Phone" />
-        <textarea placeholder="Message"></textarea>
-        <button>Send</button>
+      <form onSubmit={sendFeedback}>
+        <input name="name" type="text" placeholder="Name" required />
+        <input name="phone" type="text" placeholder="Phone" required />
+        <textarea name="message" placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
       </form>
     </section>
-  )
+  );
 }
